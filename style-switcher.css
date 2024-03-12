@@ -1,0 +1,70 @@
+.style-switcher
+{
+    position: fixed;
+    right:0px;
+    top:10px;
+    padding: 15px;
+    width:200px;
+    z-index: 10;
+    transform: translateX(100%);
+
+}
+.style-switcher .s-icon
+{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    right:100%;
+    top:0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.style-switcher .s-icon i{
+    line-height: 40px;
+}
+.style-switcher .day-night
+{
+    top:40px;
+}
+.style-switcher .style-switcher-toggler
+{
+    top:0px;
+}
+.open
+{
+    transform: translateX(-25px);
+}
+.style-switcher .colors span{
+    display: inline-block;
+    height:25px;
+    width:25px;
+    border-radius: 50%;
+}
+.style-switcher .colors
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style-switcher .colors .color-1
+{
+    background-color: rgba(223, 14, 14, 0.705);
+}
+.style-switcher .colors .color-2
+{
+    background-color: orangered;
+}
+.style-switcher .colors .color-3
+{
+    background-color:  rgb(231, 7, 44);
+}
+.style-switcher .colors .color-4
+{
+    background-color: blue;
+}
+.style-switcher .colors .color-5
+{
+    background-color: rgb(11, 146, 11);
+}
