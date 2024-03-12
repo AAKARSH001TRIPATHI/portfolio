@@ -561,10 +561,16 @@ h3.my-profession
 {
     .about .about-content .personal-info,
     .portfolio .portfolio-item,
+    .contact .contact-info-item,
     .service .service-item
     {
         flex:0 0 100%;
         max-width: 100%;
+    }
+    .experience::before
+    {
+        height:75%;
+        left:50%;
     }
 }
 
